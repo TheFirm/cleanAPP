@@ -1,0 +1,25 @@
+{
+	"name": "urmaul/cleanapp",
+	"type": "project",
+	"description": "Yii webapp template on steroids.",
+	"keywords": ["yii"],
+	"homepage": "https://github.com/urmaul/cleanapp",
+	"license": "BSD-3-Clause",
+	"require": {
+		"yiisoft/yii": "dev-master",
+		"2amigos/escriptboost": "dev-master",
+		"cr0t/yiidebugtb": "dev-master",
+		"urmaul/yii-formattedfilelogroute": "dev-master"
+	},
+	"require-dev": {
+	},
+	"suggest": {
+		"urmaul/yii-phpunit": "Meta package with all dependencies needed to run phpunit with yii."
+	},
+	"autoload": {
+		"classmap": [
+			"protected/components",
+			"protected/models"
+		]
+	}
+}
